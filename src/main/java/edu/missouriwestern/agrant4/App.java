@@ -1,6 +1,7 @@
 package edu.missouriwestern.agrant4;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.noynaert.sqlCredentials.SqlCredentials;
@@ -12,6 +13,10 @@ import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.sql.*;
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
 
@@ -21,20 +26,19 @@ import java.util.List;
  * @since March 2022
  * @author Aaron Grant
  */
-public class App 
-{
+public class App {
     //Create logger instance
     public final static Logger LOG = LogManager.getLogger(App.class);
 
     public static void main( String[] args ) {
         LOG.info("Program started");
-        LOG.trace("Inside main function");
+        LOG.trace("Inside main method");
 
         try {
             String action = args[0];
-            String reportName = args[1];
+            String reportFileName = args[1];
             LOG.info("Step 1: Type of action: " + action);
-            LOG.info("Step 1: Name of report: " + reportName);
+            LOG.info("Step 1: Name of report file: " + reportFileName);
 
 
             if(action.equals("query")) {
@@ -69,7 +73,7 @@ public class App
                 LOG.info("Step 3: First record: " + clients.get(0).toString());
 
                 //Dump the entire client file to clients.json
-                dumpClientsToJson(clients);
+                dumpListToJson(clients, "clients.json");
                 LOG.info("Step 4: clients.json file created");
 
 
@@ -82,10 +86,10 @@ public class App
                 LOG.info("Step 6: client zip is " + queriedClientZip);
 
                 //create a json object from url
-                JsonObject json = getJsonFromUrl("https://api.zippopotam.us/us/" + queriedClientZip);
+                JsonObject locationDataJson = getJsonFromUrl("https://api.zippopotam.us/us/" + queriedClientZip);
 
                 //get latitude and longitude from JsonObject
-                JsonObject placeInfo = (JsonObject) json.getAsJsonArray("places").get(0);
+                JsonObject placeInfo = (JsonObject) locationDataJson.getAsJsonArray("places").get(0);
                 String latitude = placeInfo.get("latitude").getAsString();
                 String longitude = placeInfo.get("longitude").getAsString();
                 LOG.info("Step 6: client latitude is " + latitude);
@@ -97,7 +101,7 @@ public class App
                 String user = credentials.getUser();
                 String host = credentials.getHost();
 
-                //Do prepared query to get median age and population of a city
+                //Do the prepared query to get median age and population of a city
                 HashMap<String, String> cityData =
                     getMedianAgeAndPopulation(
                         pass,
@@ -108,13 +112,43 @@ public class App
                     );
                 String medianAge = cityData.get("medianAge");
                 String population = cityData.get("population");
+                LOG.info("Step 7: Population is: " + population);
+                LOG.info("Step 7: median age is: " + medianAge);
 
-                if (!cityData.get("medianAge").equals("No city data found")) {
-                    LOG.info("Step 7: Population is: " + population);
-                    LOG.info("Step 7: median age is: " + medianAge);
-                } else {
-                    LOG.info("Step 7: No city data found");
-                }
+                //Read current exchange rates from website
+                JsonObject currencyDataJson = getJsonFromUrl("http://www.floatrates.com/daily/usd.json");
+                String currencyName = currencyDataJson.getAsJsonObject(currency).getAsJsonPrimitive("name").getAsString();
+                String currencyRate = currencyDataJson.getAsJsonObject(currency).getAsJsonPrimitive("rate").getAsString();
+                String currencyDate = currencyDataJson.getAsJsonObject(currency).getAsJsonPrimitive("date").getAsString();
+
+                //Parse rate date as LocalDateTime object to determine age of rate
+                LocalDateTime date = LocalDateTime.parse(currencyDate, DateTimeFormatter.RFC_1123_DATE_TIME);
+                String ageOfRate = String.valueOf(Duration.between(date, LocalDateTime.now(ZoneId.of("GMT"))).toHours());
+                String ageOfRateMessage = "The exchange rate is " + ageOfRate + " hours old.";
+                LOG.info("Step 8: currency name is: " + currencyName);
+                LOG.info("Step 8: exchange rate is: " + currencyRate);
+                LOG.info("Step 8: " + ageOfRateMessage);
+
+
+                /*
+                 * send results of query to file from args[1] by first creating a final report
+                 * object then using that to build a Json object
+                 */
+                FinalReport finalReport = new FinalReport(
+                    queriedClient,
+                    latitude,
+                    longitude,
+                    medianAge,
+                    population,
+                    currencyName,
+                    currencyRate,
+                    ageOfRateMessage
+                );
+                dumpObjectToJson(finalReport, reportFileName);
+                LOG.info("Step 9: json file \"" + reportFileName + "\" created.");
+
+
+
 
 
 
@@ -139,7 +173,7 @@ public class App
         String city,
         String state
     ) {
-        LOG.trace("Inside function getMedianAgeAndPopulation");
+        LOG.trace("Inside getMedianAgeAndPopulation method");
         String connectionString = String.format("jdbc:mysql://%s:3306/misc", host);
         HashMap<String, String> cityData = new HashMap<>();
         try {
@@ -149,9 +183,9 @@ public class App
             PreparedStatement stmt = con.prepareStatement(query);
             LOG.info("Connection established to database");
 
-            //set the ? in the prepared query to our city variable
+            //set the "?" in the prepared query to our city variable
             stmt.setString(1, city);
-            stmt.setString(2, abbreviatedStatetoString(state));
+            stmt.setString(2, abbreviatedStateToString(state));
 
             //execute the query
             ResultSet results = stmt.executeQuery();
@@ -183,7 +217,9 @@ public class App
         return cityData;
     }
 
-    private static String abbreviatedStatetoString(String stateAbbreviation) {
+    private static String abbreviatedStateToString(String stateAbbreviation) {
+        LOG.trace("Inside abbreviatedStateToString method");
+
         HashMap<String, String> states = new HashMap<>();
         states.put("AL", "Alabama");
         states.put("AK", "Alaska");
@@ -288,11 +324,11 @@ public class App
         return queriedClient;
     }
 
-    private static void dumpClientsToJson(List<Client> clientsList) {
+    private static void dumpListToJson(List<Client> clientsList, String fileName) {
         LOG.trace("Inside dumpClients method");
         try {
-            Gson gson = new Gson();
-            FileWriter writer = new FileWriter("clients.json");
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            FileWriter writer = new FileWriter(fileName);
             gson.toJson(clientsList, writer);
             writer.close();
         } catch (IOException e) {
@@ -301,5 +337,25 @@ public class App
             System.exit(1);
         }
 
+    }
+
+    /**
+     * Prints an object to a json file.
+     *
+     * @param fileName -- The name of the file to be written to
+     * @param object     -- ????
+     */
+    private static void dumpObjectToJson(Object object, String fileName) {
+        LOG.trace("Inside dumpObjectToJson method");
+        try {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            FileWriter writer = new FileWriter(fileName);
+            gson.toJson(object, writer);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            LOG.error("IOException inside dumpObjectToJson: " + e.getMessage());
+            System.exit(1);
+        }
     }
 }

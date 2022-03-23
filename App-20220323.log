@@ -219,3 +219,617 @@
 2022-03-23 14:37:30.156 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: 389617
 2022-03-23 14:37:30.156 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: 35.9
 2022-03-23 14:37:30.156 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 15:09:06.948 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 15:09:06.950 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 15:09:06.950 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 15:09:06.950 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 15:09:06.950 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 15:09:06.951 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 730
+2022-03-23 15:09:06.951 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 15:09:06.951 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 15:09:07.081 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 15:09:07.082 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:09:07.082 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 15:09:07.129 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 15:09:07.129 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 15:09:07.130 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:09:07.130 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 70116
+2022-03-23 15:09:07.131 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 15:09:07.696 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 29.9686
+2022-03-23 15:09:07.696 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -90.0646
+2022-03-23 15:09:07.700 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 15:09:08.082 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 15:09:08.136 [main] INFO  edu.missouriwestern.agrant4.App - At least one record was found for client's city
+2022-03-23 15:09:08.145 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 15:09:08.145 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: 389617
+2022-03-23 15:09:08.146 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: 35.9
+2022-03-23 15:09:08.146 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 15:17:46.479 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 15:17:46.481 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 15:17:46.482 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 15:17:46.482 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 15:17:46.482 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 15:17:46.482 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 730
+2022-03-23 15:17:46.482 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 15:17:46.483 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 15:17:46.587 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 15:17:46.587 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:17:46.587 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 15:17:46.624 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 15:17:46.624 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 15:17:46.624 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:17:46.625 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 70116
+2022-03-23 15:17:46.625 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 15:17:47.162 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 29.9686
+2022-03-23 15:17:47.163 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -90.0646
+2022-03-23 15:17:47.166 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 15:17:47.548 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 15:17:47.549 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 15:17:47.603 [main] INFO  edu.missouriwestern.agrant4.App - At least one record was found for client's city
+2022-03-23 15:17:47.611 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 15:17:47.611 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: 389617
+2022-03-23 15:17:47.611 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: 35.9
+2022-03-23 15:17:47.612 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 15:17:47.614 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 15:18:23.008 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 15:18:23.011 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 15:18:23.011 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 15:18:23.011 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 15:18:23.011 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 15:18:23.011 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 730
+2022-03-23 15:18:23.011 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 15:18:23.012 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 15:18:23.121 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 15:18:23.121 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:18:23.121 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 15:18:23.169 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 15:18:23.169 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 15:18:23.170 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:18:23.170 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 70116
+2022-03-23 15:18:23.170 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 15:18:23.637 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 29.9686
+2022-03-23 15:18:23.637 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -90.0646
+2022-03-23 15:18:23.640 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 15:18:23.980 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 15:18:23.980 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 15:18:24.029 [main] INFO  edu.missouriwestern.agrant4.App - At least one record was found for client's city
+2022-03-23 15:18:24.037 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 15:18:24.037 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: 389617
+2022-03-23 15:18:24.037 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: 35.9
+2022-03-23 15:18:24.038 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 15:18:24.039 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 15:20:52.053 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 15:20:52.055 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 15:20:52.056 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 15:20:52.056 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 15:20:52.056 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 15:20:52.056 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 730
+2022-03-23 15:20:52.056 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 15:20:52.057 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 15:20:52.164 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 15:20:52.165 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:20:52.165 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 15:20:52.202 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 15:20:52.202 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 15:20:52.203 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:20:52.203 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 70116
+2022-03-23 15:20:52.203 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 15:20:52.719 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 29.9686
+2022-03-23 15:20:52.719 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -90.0646
+2022-03-23 15:20:52.722 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 15:20:53.081 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 15:20:53.082 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 15:20:53.130 [main] INFO  edu.missouriwestern.agrant4.App - At least one record was found for client's city
+2022-03-23 15:20:53.138 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 15:20:53.138 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: 389617
+2022-03-23 15:20:53.138 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: 35.9
+2022-03-23 15:20:53.139 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 15:20:53.140 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 15:20:53.140 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 15:21:16.239 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 15:21:16.241 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 15:21:16.241 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 15:21:16.241 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 15:21:16.242 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 15:21:16.242 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 15:21:16.242 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 15:21:16.243 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 15:21:16.362 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 15:21:16.363 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 15:21:16.363 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 15:21:16.405 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 15:21:16.405 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 15:21:16.406 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 15:21:16.406 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 15:21:16.406 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 15:21:16.905 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 15:21:16.905 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 15:21:16.908 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 15:21:17.270 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 15:21:17.270 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 15:21:17.320 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 15:21:17.328 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 15:21:17.328 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 15:21:17.328 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 15:21:17.329 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 15:21:17.333 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 15:21:17.333 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:21:34.847 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:21:34.850 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:21:34.851 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:21:34.851 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:21:34.851 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:21:34.852 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:21:34.852 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:21:34.855 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:21:35.067 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:21:35.069 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:21:35.069 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:21:35.137 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:21:35.138 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:21:35.138 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:21:35.138 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:21:35.138 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:21:35.914 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:21:35.914 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:21:35.918 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:21:36.387 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:21:36.387 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:21:36.442 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:21:36.452 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:21:36.452 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:21:36.452 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:21:36.453 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:23:57.515 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:23:57.517 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:23:57.517 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:24:01.813 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:24:01.816 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:24:01.816 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:24:01.816 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:24:01.816 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:24:01.817 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:24:01.817 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:24:01.819 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:24:01.961 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:24:01.962 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:24:01.963 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:24:02.021 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:24:02.022 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:24:02.022 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:24:02.023 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:24:02.023 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:24:02.614 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:24:02.614 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:24:02.618 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:24:03.016 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:24:03.016 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:24:03.076 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:24:03.084 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:24:03.084 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:24:03.084 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:24:03.084 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:24:17.426 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:24:17.429 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:24:17.429 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:24:21.434 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:24:21.440 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:24:21.440 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:24:21.441 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:24:21.441 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:24:21.442 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:24:21.442 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:24:21.444 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:24:21.599 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:24:21.600 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:24:21.600 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:24:21.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:24:21.657 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:24:21.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:24:21.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:24:21.658 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:24:22.221 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:24:22.221 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:24:22.225 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:24:22.626 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:24:22.627 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:24:22.676 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:24:22.683 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:24:22.684 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:24:22.684 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:24:22.684 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:25:03.345 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:25:03.347 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:25:03.348 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:25:07.654 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:25:07.656 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:25:07.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:25:07.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:25:07.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:25:07.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:25:07.657 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:25:07.659 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:25:07.796 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:25:07.797 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:25:07.797 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:25:07.848 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:25:07.848 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:25:07.848 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:25:07.849 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:25:07.849 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:25:08.414 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:25:08.414 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:25:08.418 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:25:08.790 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:25:08.791 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:25:08.843 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:25:08.851 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:25:08.851 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:25:08.851 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:25:08.851 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:41:44.997 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:41:45.002 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:41:45.003 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:41:50.967 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:41:50.971 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:41:50.971 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:41:50.972 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:41:50.972 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:41:50.972 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:41:50.972 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:41:50.973 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:41:51.137 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:41:51.138 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:41:51.139 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:41:51.198 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:41:51.198 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:41:51.198 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:41:51.199 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:41:51.199 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:41:51.922 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:41:51.923 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:41:51.927 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:41:52.318 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:41:52.319 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:41:52.368 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:41:52.376 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:41:52.376 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:41:52.377 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:41:52.377 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:41:52.486 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:42:19.094 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:42:19.097 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:42:19.097 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:42:19.097 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:42:19.097 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:42:19.098 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:42:19.098 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:42:19.099 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:42:19.243 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:42:19.244 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:42:19.244 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:42:19.297 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:42:19.297 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:42:19.297 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:42:19.298 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:42:19.298 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:42:19.833 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:42:19.833 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:42:19.836 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:42:20.263 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:42:20.263 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:42:20.321 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:42:20.329 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:42:20.329 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:42:20.329 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:42:20.329 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:42:20.446 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:42:33.673 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:42:33.677 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:42:33.677 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:42:33.677 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:42:33.677 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:42:33.678 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:42:33.678 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:42:33.680 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:42:33.851 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:42:33.853 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:42:33.854 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:42:33.919 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:42:33.919 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:42:33.920 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:42:33.920 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:42:33.920 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:42:34.512 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:42:34.512 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:42:34.516 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:42:34.924 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:42:34.924 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:42:34.983 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:42:34.990 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:42:34.991 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:42:34.991 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:42:37.383 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:42:53.489 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:42:56.383 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:42:56.386 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:42:56.386 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:42:56.386 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:42:56.386 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:42:56.387 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:42:56.387 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:42:56.388 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:42:56.500 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:42:56.501 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:42:56.501 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:42:56.551 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:42:56.551 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:42:56.552 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:42:56.552 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:42:56.552 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:42:57.172 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:42:57.172 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:42:57.176 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:42:57.536 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:42:57.536 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:42:57.588 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:42:57.596 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:42:57.596 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:42:57.596 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:42:57.597 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:42:57.702 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:43:32.571 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:43:32.576 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:43:32.576 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:43:32.576 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:43:32.577 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:43:32.577 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:43:32.577 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:43:32.579 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:43:32.705 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:43:32.706 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:43:32.706 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:43:32.752 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:43:32.752 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:43:32.753 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:43:32.753 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:43:32.753 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:43:33.285 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:43:33.285 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:43:33.289 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:43:33.704 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:43:33.704 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:43:33.760 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:43:33.768 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:43:33.768 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:43:33.768 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:43:33.768 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:44:02.693 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:44:05.999 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:44:06.002 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:44:06.002 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:44:06.003 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:44:06.003 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:44:06.003 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:44:06.003 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:44:06.005 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:44:06.135 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:44:06.136 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:44:06.136 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:44:06.187 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:44:06.188 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:44:06.188 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:44:06.188 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:44:06.189 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:44:06.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:44:06.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:44:06.776 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:44:07.168 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:44:07.168 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:44:07.227 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:44:07.235 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:44:07.236 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:44:07.236 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:44:07.236 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:44:14.259 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:44:36.105 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:44:36.107 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:44:36.108 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:44:36.108 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:44:36.108 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:44:36.108 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:44:36.108 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:44:36.110 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:44:36.236 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:44:36.237 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:44:36.238 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:44:36.288 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:44:36.288 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:44:36.288 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:44:36.289 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:44:36.289 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:44:36.842 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:44:36.842 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:44:36.846 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:44:37.233 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:44:37.233 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:44:37.287 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:44:37.296 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:44:37.296 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:44:37.296 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:44:37.297 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:44:42.153 [main] ERROR edu.missouriwestern.agrant4.App - Error within main: class com.google.gson.JsonPrimitive cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonPrimitive and com.google.gson.JsonObject are in unnamed module of loader 'app')
+2022-03-23 16:45:05.769 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:45:05.772 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:45:05.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:45:05.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:45:05.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:45:05.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:45:05.773 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:45:05.775 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:45:05.901 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:45:05.902 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:45:05.903 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:45:05.950 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:45:05.950 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:45:05.951 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:45:05.951 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:45:05.951 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:45:06.491 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:45:06.491 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:45:06.495 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:45:06.844 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:45:06.845 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:45:06.898 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:45:06.906 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:45:06.906 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:45:06.906 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:45:06.906 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:49:22.148 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:49:22.153 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:49:22.153 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:49:26.277 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:49:26.282 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:49:26.282 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:49:26.282 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:49:26.283 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:49:26.283 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:49:26.283 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:49:26.284 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:49:26.409 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:49:26.410 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:49:26.411 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:49:26.456 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:49:26.456 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:49:26.456 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:49:26.456 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:49:26.457 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:49:27.104 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:49:27.104 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:49:27.108 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:49:27.469 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:49:27.470 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:49:27.522 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:49:27.529 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:49:27.529 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:49:27.530 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:49:27.530 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:51:10.819 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:51:10.824 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:51:10.824 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:51:22.184 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:51:22.187 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:51:22.187 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:51:22.188 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:51:22.188 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:51:22.188 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:51:22.188 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:51:22.190 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:51:22.323 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:51:22.324 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:51:22.325 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:51:22.378 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:51:22.379 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:51:22.379 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:51:22.379 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:51:22.380 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:51:22.959 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:51:22.959 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:51:22.962 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:51:23.311 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:51:23.311 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:51:23.363 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:51:23.370 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:51:23.370 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:51:23.371 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:51:23.371 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:51:50.181 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:51:50.183 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:51:50.184 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:51:54.109 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:51:54.112 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:51:54.112 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:51:54.112 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:51:54.112 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:51:54.112 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:51:54.112 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:51:54.114 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:51:54.249 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:51:54.250 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:51:54.251 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:51:54.300 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:51:54.300 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:51:54.300 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:51:54.300 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:51:54.300 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:51:54.862 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:51:54.862 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:51:54.865 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:51:55.247 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:51:55.248 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:51:55.304 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:51:55.312 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:51:55.312 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:51:55.313 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:51:55.313 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:54:40.321 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:54:40.333 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:54:40.333 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:54:45.957 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:54:45.960 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:54:45.960 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:54:45.961 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:54:45.961 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:54:45.961 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:54:45.961 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:54:45.963 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:54:46.106 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:54:46.107 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:54:46.108 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:54:46.169 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:54:46.169 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:54:46.169 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:54:46.170 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:54:46.170 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:54:46.755 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 16:54:46.755 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 16:54:46.758 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 16:54:47.111 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 16:54:47.111 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 16:54:47.161 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 16:54:47.169 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 16:54:47.169 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 16:54:47.170 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 16:54:47.170 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 16:54:47.283 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 16:54:47.285 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 16:54:47.285 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 16:59:59.791 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 16:59:59.793 [main] TRACE edu.missouriwestern.agrant4.App - Inside main function
+2022-03-23 16:59:59.793 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: query
+2022-03-23 16:59:59.794 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 16:59:59.794 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client file: clients.csv
+2022-03-23 16:59:59.794 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Client number: 220
+2022-03-23 16:59:59.794 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Currency type: eur
+2022-03-23 16:59:59.795 [main] DEBUG edu.missouriwestern.agrant4.App - Step 2: Test Client data = Clients{clientNumber=0, firstName='test', lastName='test', company='test', address='test', city='test', county='test', state='test', postalCode=12345, riskFactor=0.0, phone1='999-999-9999', phone2='999-999-9999', email='test@test.com', website='www.test.com'}
+2022-03-23 16:59:59.909 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: Records read: 19
+2022-03-23 16:59:59.909 [main] INFO  edu.missouriwestern.agrant4.App - Step 3: First record: Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}
+2022-03-23 16:59:59.910 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpClients method
+2022-03-23 16:59:59.949 [main] INFO  edu.missouriwestern.agrant4.App - Step 4: clients.json file created
+2022-03-23 16:59:59.949 [main] TRACE edu.missouriwestern.agrant4.App - Inside getSpecifiedClient method
+2022-03-23 16:59:59.949 [main] INFO  edu.missouriwestern.agrant4.App - Step 5: Requested client is: Clients{clientNumber=220, firstName='Josephine', lastName='Darakjy', company='Chanay, Jeffrey A Esq', address='4 B Blue Ridge Blvd', city='Brighton', county='Livingston', state='MI', postalCode=48116, riskFactor=2.1116117160137, phone1='810-292-9388', phone2='810-374-9840', email='josephine_darakjy@darakjy.org', website='http://www.chanayjeffreyaesq.com'}
+2022-03-23 16:59:59.949 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client zip is 48116
+2022-03-23 16:59:59.950 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 17:00:00.580 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client latitude is 42.5371
+2022-03-23 17:00:00.580 [main] INFO  edu.missouriwestern.agrant4.App - Step 6: client longitude is -83.7756
+2022-03-23 17:00:00.583 [main] TRACE edu.missouriwestern.agrant4.App - Inside function getMedianAgeAndPopulation
+2022-03-23 17:00:00.937 [main] INFO  edu.missouriwestern.agrant4.App - Connection established to database
+2022-03-23 17:00:00.937 [main] TRACE edu.missouriwestern.agrant4.App - Inside function abbreviatedStatetoString
+2022-03-23 17:00:00.995 [main] INFO  edu.missouriwestern.agrant4.App - No records found for client's city
+2022-03-23 17:00:01.006 [main] INFO  edu.missouriwestern.agrant4.App - Connection to database closed.
+2022-03-23 17:00:01.006 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: Population is: No city data found
+2022-03-23 17:00:01.006 [main] INFO  edu.missouriwestern.agrant4.App - Step 7: median age is: No city data found
+2022-03-23 17:00:01.006 [main] TRACE edu.missouriwestern.agrant4.App - Inside getJsonFromUrl method
+2022-03-23 17:00:01.130 [main] TRACE edu.missouriwestern.agrant4.App - Inside dumpObjectToJson method
+2022-03-23 17:00:01.133 [main] INFO  edu.missouriwestern.agrant4.App - Step 9: json file "jim.json" created.
+2022-03-23 17:00:01.134 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program

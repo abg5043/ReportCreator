@@ -1,0 +1,25 @@
+{
+  "client": {
+    "clientNumber": 220,
+    "firstName": "Josephine",
+    "lastName": "Darakjy",
+    "company": "Chanay, Jeffrey A Esq",
+    "address": "4 B Blue Ridge Blvd",
+    "city": "Brighton",
+    "county": "Livingston",
+    "state": "MI",
+    "postalCode": 48116,
+    "riskFactor": 2.1116117160137,
+    "phone1": "810-292-9388",
+    "phone2": "810-374-9840",
+    "email": "josephine_darakjy@darakjy.org",
+    "website": "http://www.chanayjeffreyaesq.com"
+  },
+  "latitude": "42.5371",
+  "longitude": "-83.7756",
+  "medianAge": "No city data found",
+  "population": "No city data found",
+  "currencyName": "Euro",
+  "exchangeRate": "0.90900496909932",
+  "ageOfExchangeRate": "The exchange rate is 10 hours old."
+}
