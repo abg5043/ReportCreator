@@ -1,2 +1,5 @@
 # Project exclude paths
 /target/
+
+#sensitive information
+woz.xml
