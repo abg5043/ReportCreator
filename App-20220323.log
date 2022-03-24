@@ -1176,3 +1176,11 @@
 2022-03-23 21:03:31.344 [main] INFO  edu.missouriwestern.agrant4.App - Report read. Report includes: Report{fileName='jim.json', client=Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}, latitude='29.9686', longitude='-90.0646', medianAge='35.9', population='389617', currencyName='Euro', exchangeRate='0.90947602542572', ageOfExchangeRate='The exchange rate is 1 hour(s) old.'}
 2022-03-23 21:03:31.345 [main] INFO  edu.missouriwestern.agrant4.App - Report printed to file: jim.md
 2022-03-23 21:03:31.345 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program
+2022-03-23 21:56:11.329 [main] INFO  edu.missouriwestern.agrant4.App - Program started
+2022-03-23 21:56:11.331 [main] TRACE edu.missouriwestern.agrant4.App - Inside main method
+2022-03-23 21:56:11.331 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Type of action: report
+2022-03-23 21:56:11.331 [main] INFO  edu.missouriwestern.agrant4.App - Step 1: Name of report file: jim.json
+2022-03-23 21:56:11.332 [main] TRACE edu.missouriwestern.agrant4.App - Inside jsonToObject method
+2022-03-23 21:56:11.363 [main] INFO  edu.missouriwestern.agrant4.App - Report read. Report includes: Report{fileName='jim.json', client=Clients{clientNumber=730, firstName='James', lastName='Butt', company='Benton, John B Jr', address='6649 N Blue Gum St', city='New Orleans', county='Orleans', state='LA', postalCode=70116, riskFactor=1.30104582103399, phone1='504-621-8927', phone2='504-845-1427', email='jbutt@gmail.com', website='http://www.bentonjohnbjr.com'}, latitude='29.9686', longitude='-90.0646', medianAge='35.9', population='389617', currencyName='Euro', exchangeRate='0.90947602542572', ageOfExchangeRate='The exchange rate is 1 hour(s) old.'}
+2022-03-23 21:56:11.365 [main] INFO  edu.missouriwestern.agrant4.App - Report printed to file: jim.md
+2022-03-23 21:56:11.365 [main] INFO  edu.missouriwestern.agrant4.App - Exiting Program

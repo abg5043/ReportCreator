@@ -2,6 +2,7 @@ package edu.missouriwestern.agrant4;
 
 import com.opencsv.bean.CsvBindByName;
 
+/** This is an object that represent a client for the company. */
 public class Client {
   @CsvBindByName(column = "number")
   private int clientNumber;
@@ -34,6 +35,7 @@ public class Client {
   @CsvBindByName(column = "web")
   private String website;
 
+  /** Default no-arg constructor for client. Fills client with default values */
   public Client() {
     this(
         -1,
@@ -52,6 +54,24 @@ public class Client {
         "?");
   }
 
+  /**
+   * Full constructor for client.
+   *
+   * @param clientNumber -- client's number
+   * @param firstName -- client's first name
+   * @param lastName -- client's last name
+   * @param company -- client's company
+   * @param address -- client's address
+   * @param city -- client's city
+   * @param county -- client's county
+   * @param state -- client's state
+   * @param postalCode -- client's postal code
+   * @param riskFactor -- client's risk factor
+   * @param phone1 -- client's phone number
+   * @param phone2 -- client's secondary number
+   * @param email -- client's email
+   * @param website -- client's website
+   */
   public Client(
       int clientNumber,
       String firstName,

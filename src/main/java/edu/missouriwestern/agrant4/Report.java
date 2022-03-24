@@ -1,9 +1,9 @@
 package edu.missouriwestern.agrant4;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
+/** This is an object that represents a report for the company. */
 public class Report {
 
   private String fileName;
@@ -16,6 +16,7 @@ public class Report {
   private String exchangeRate;
   private String ageOfExchangeRate;
 
+  /** Default no-arg constructor for Report. Fills fields with default values. */
   public Report() {
     this(
         "No info found",
@@ -29,6 +30,19 @@ public class Report {
         "No info found");
   }
 
+  /**
+   * Constructor for Report.
+   *
+   * @param fileName -- report's file name
+   * @param client -- client the report is about
+   * @param latitude -- client's latitude
+   * @param longitude -- client's longitude
+   * @param medianAge -- median age of client's area
+   * @param population -- population of client's area
+   * @param currencyName -- currency the client deals with
+   * @param exchangeRate -- exchange rate of the above currency
+   * @param ageOfExchangeRate -- age of the exchange rate for the above currency
+   */
   public Report(
       String fileName,
       Client client,
@@ -154,9 +168,14 @@ public class Report {
         + '}';
   }
 
+  /**
+   * Prints the report as a formatted markdown file.
+   *
+   * @param fileName -- the file name for the created markdown file
+   */
   public void printReport(String fileName) {
     try {
-      PrintWriter output = new PrintWriter(new File(fileName));
+      PrintWriter output = new PrintWriter(fileName);
       output.println("# Client report for " + client.getFirstName() + " " + client.getLastName());
 
       output.println("## Client ID " + client.getClientNumber());

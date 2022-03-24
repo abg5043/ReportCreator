@@ -19,5 +19,5 @@ New Orleans, LA 70116
 * Total Population: 389617
 ### Currency Information
 * Currency Name: Euro
-* Exchange Rate: 0.90947602542572
+* Exchange Rate: 0.90982688005079
 * (NOTE: The exchange rate is 1 hour(s) old.)
