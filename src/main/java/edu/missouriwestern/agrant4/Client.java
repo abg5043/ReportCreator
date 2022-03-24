@@ -5,36 +5,38 @@ import com.opencsv.bean.CsvBindByName;
 public class Client {
   @CsvBindByName(column = "number")
   private int clientNumber;
+
   @CsvBindByName(column = "first_name")
   private String firstName;
+
   @CsvBindByName(column = "last_name")
   private String lastName;
-  @CsvBindByName
-  private String company;
-  @CsvBindByName
-  private String address;
-  @CsvBindByName
-  private String city;
-  @CsvBindByName
-  private String county;
-  @CsvBindByName
-  private String state;
+
+  @CsvBindByName private String company;
+  @CsvBindByName private String address;
+  @CsvBindByName private String city;
+  @CsvBindByName private String county;
+  @CsvBindByName private String state;
+
   @CsvBindByName(column = "postal_code")
   private int postalCode;
+
   @CsvBindByName(column = "risk_factor")
   private double riskFactor;
-  @CsvBindByName
-  private String phone1;
+
+  @CsvBindByName private String phone1;
+
   @CsvBindByName(column = "phon2")
   private String phone2;
-  @CsvBindByName
-  private String email;
+
+  @CsvBindByName private String email;
+
   @CsvBindByName(column = "web")
   private String website;
 
-
   public Client() {
-    this(-1,
+    this(
+        -1,
         "?",
         "?",
         "?",
@@ -50,7 +52,21 @@ public class Client {
         "?");
   }
 
-  public Client(int clientNumber, String firstName, String lastName, String company, String address, String city, String county, String state, int postalCode, double riskFactor, String phone1, String phone2, String email, String website) {
+  public Client(
+      int clientNumber,
+      String firstName,
+      String lastName,
+      String company,
+      String address,
+      String city,
+      String county,
+      String state,
+      int postalCode,
+      double riskFactor,
+      String phone1,
+      String phone2,
+      String email,
+      String website) {
     setClientNumber(clientNumber);
     setFirstName(firstName);
     setLastName(lastName);
@@ -181,21 +197,46 @@ public class Client {
 
   @Override
   public String toString() {
-    return "Clients{" +
-        "clientNumber=" + clientNumber +
-        ", firstName='" + firstName + '\'' +
-        ", lastName='" + lastName + '\'' +
-        ", company='" + company + '\'' +
-        ", address='" + address + '\'' +
-        ", city='" + city + '\'' +
-        ", county='" + county + '\'' +
-        ", state='" + state + '\'' +
-        ", postalCode=" + postalCode +
-        ", riskFactor=" + riskFactor +
-        ", phone1='" + phone1 + '\'' +
-        ", phone2='" + phone2 + '\'' +
-        ", email='" + email + '\'' +
-        ", website='" + website + '\'' +
-        '}';
+    return "Clients{"
+        + "clientNumber="
+        + clientNumber
+        + ", firstName='"
+        + firstName
+        + '\''
+        + ", lastName='"
+        + lastName
+        + '\''
+        + ", company='"
+        + company
+        + '\''
+        + ", address='"
+        + address
+        + '\''
+        + ", city='"
+        + city
+        + '\''
+        + ", county='"
+        + county
+        + '\''
+        + ", state='"
+        + state
+        + '\''
+        + ", postalCode="
+        + postalCode
+        + ", riskFactor="
+        + riskFactor
+        + ", phone1='"
+        + phone1
+        + '\''
+        + ", phone2='"
+        + phone2
+        + '\''
+        + ", email='"
+        + email
+        + '\''
+        + ", website='"
+        + website
+        + '\''
+        + '}';
   }
 }
